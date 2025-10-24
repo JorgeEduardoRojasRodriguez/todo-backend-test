@@ -33,7 +33,7 @@ services:
       - '3000:3000'
     environment:
       DATABASE_URL: postgresql://postgres:postgres@postgres:5432/todoapp?schema=public
-      JWT_SECRET: super-secret-jwt-key-change-in-production-2024
+      JWT_SECRET: 5c6b007c64614c4c39e85052242210564f265f671b198b2945b8af113698a06c57197b4ae2a7b6e0227b8af509fe0cb21a0b4407e02a22cfc8169abcd0df617c
       JWT_EXPIRES_IN: 24h
       PORT: 3000
       NODE_ENV: production

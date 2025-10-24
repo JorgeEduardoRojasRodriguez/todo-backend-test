@@ -35,11 +35,9 @@ lerna-debug.log*
 !.vscode/extensions.json
 
 # Environment variables
-.env
-.env.local
 .env.*.local
 
 # Docker
 docker-compose.override.yml
 
-.env
+config.bat
