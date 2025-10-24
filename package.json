@@ -1,7 +1,7 @@
 {
   "name": "todo-app-backend",
   "version": "1.0.0",
-  "description": "REST API para gestión de tareas con NestJS",
+  "description": "REST API para gesti\u00f3n de tareas con NestJS",
   "author": "",
   "private": true,
   "license": "MIT",
@@ -24,8 +24,8 @@
   },
   "dependencies": {
     "@nestjs/common": "^10.3.0",
-    "@nestjs/core": "^10.3.0",
     "@nestjs/config": "^3.1.1",
+    "@nestjs/core": "^10.3.0",
     "@nestjs/jwt": "^10.2.0",
     "@nestjs/passport": "^10.0.3",
     "@nestjs/platform-express": "^10.3.0",
@@ -33,6 +33,8 @@
     "bcryptjs": "^2.4.3",
     "class-transformer": "^0.5.1",
     "class-validator": "^0.14.0",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^3.3.2",
     "passport": "^0.7.0",
     "passport-jwt": "^4.0.1",
     "reflect-metadata": "^0.1.13",
