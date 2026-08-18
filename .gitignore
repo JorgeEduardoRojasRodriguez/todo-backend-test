@@ -41,3 +41,6 @@ lerna-debug.log*
 docker-compose.override.yml
 
 config.bat
+.env
+.env.*
+!.env.example
